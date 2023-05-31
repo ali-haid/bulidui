@@ -1,0 +1,23 @@
+.perfect-scrollbar{
+    overflow-y: auto!important;
+    overflow-x: hidden!important;
+}
+
+
+.perfect-scrollbar::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #eee;
+}
+
+.perfect-scrollbar::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #eee;
+}
+
+.perfect-scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+    background: rgba(222, 222, 222, .75);
+}
